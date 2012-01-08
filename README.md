@@ -1,4 +1,4 @@
-Github personal pages for Jamie Eisenhart
+Github [pages](http://pages.github.com) for Jamie Eisenhart
 
 ## Web Experiments
 
