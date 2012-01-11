@@ -1,13 +1,2 @@
 Github [pages](http://pages.github.com) for Jamie Eisenhart
 
-## Web Experiments
-
-* [Horizontal book list with animated scroll](http://jamieei.org/book_list.html)
-
-## Future Experiments
-
-* 3d bookshelf
-* Accordion w/ side tabs
-* Fling to scroll
-* Pinch to zoom
-
