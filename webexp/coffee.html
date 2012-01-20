@@ -20,13 +20,23 @@
 <h1>CoffeeScript Test</h1>
 
 <script type="text/coffeescript">
-  jQuery(document).ready(() -> alert "howdy")
+  class Foo
+    constructor: (@bar) ->
+    babble: (x) -> ("bar = " + @bar + ", x = " + x)
+    multi: () -> [42, 21]
+
+  jQuery(document).ready(() ->
+    bar = (x) -> [1..x]
+    [x, y] = bar 5
+    alert "y = #{y}" # commnet?
+  )
 </script>
 
 <aside>
-  <p><a href=https://jamieei.github.com/blob/gh-pages/coffee.html>Source</a>
+  <p><a href=https://github.com/JamieEi/jamieei.github.com/blob/master/webexp/coffee.html>Source</a>
   <h2>References</h2>
   <ol>
+    <li><a href=http://coffeescript.org/>CoffeeScript</a></li>
   </ol>
 </aside>
 
